@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="src/css/index.css" />
+    <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
+  </head>
+  <body>
+    <form>
+          <div class="mb-3">
+      <label for="Select" class="form-label">Plugin</label>
+      <select id="Select" class="form-select">
+        <option value="vanilla">Vanilla</option>
+        <option value="paper">Paper</option>
+         <option value="spigot">Spigot</option>
+         <option value="bukkit">Bukkit</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="Seleccionar" class="form-label">Version</label>
+      <select id="Select2" class="form-select">
+        <option value="1.19">1.19</option>
+        <option value="1.18">1.18</option>
+         <option value="1.17">1.17</option>
+         <option value="1.16">1.16</option>
+         <option value="1.15">1.15</option>
+         <option value="1.14">1.14</option>
+         <option value="1.13">1.13</option>
+         <option value="1.12">1.12</option>
+         <option value="1.11">1.11</option>
+         <option value="1.10">1.10</option>
+         <option value="1.19">1.9</option>
+         <option value="1.8">1.8</option>
+      </select>
+    </div>
+    <label for="inputPassword5" class="form-label">Name</label>
+<input type="text" id="name" class="form-control" aria-describedby="passwordHelpBlock">
+<div id="passwordHelpBlock" class="form-text">
+ Your Server name can't contain spaces.
+</div>
+<button type="button" onclick="createServer()" class="btn btn-success">Done</button>
+    </form>
+      <script src="src/js/main.js"></script>
+    <script src="src/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
